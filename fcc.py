@@ -43,7 +43,7 @@ def random_numbers():
  \33[36;1mTotal: '''))
   [data.append({'user': str(e), 'pw':[str(e[5:]), str(e[6:]), str(e[7:])]}) for e in [str(kode)+''.join(['%s'%(randint(0,9)) for i in range(0,8)]) for e in range(jml)]]
   print('''
-  God Bless You:)
+  hilmanXD:)
   \33;[36;1mCracking...
   ''')
   with concurrent.futures.ThreadPoolExecutor(max_workers=30) as th:
@@ -78,7 +78,7 @@ def random_email():
   \33[0;36mSet password: ''').split(',')
   [data.append({'user': nama+str(e)+list[domain], 'pw':[(i) for i in setpw]}) for e in range(1,jml+1)]
   print('''
-\33[33;1mGod Bless You :)
+\33[33;1mHilmanXD :)
 \33[1;33mCracking....
   ''')
   with concurrent.futures.ThreadPoolExecutor(max_workers=30) as th:
